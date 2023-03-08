@@ -1,8 +1,4 @@
 ﻿namespace ConsoleApp1
-<<<<<<< HEAD
-{    
-    // 2023/03/08 Ruler Class Position Change
-=======
 {
     public class Program
     {
@@ -23,7 +19,6 @@
             ruler.Run();
         }       //Main(string[] args)
     }       //Class Program
->>>>>>> origin/beta
     public class Ruler
     {
         private const float ONE_INCH = 2.54F;
