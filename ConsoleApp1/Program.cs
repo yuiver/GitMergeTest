@@ -5,7 +5,17 @@
 
         static void Main(string[] args)
         {
-            Ruler ruler = new Ruler(10);
+            //  {       2023. 03. 08. make user input system. /Beta
+            string userInput = string.Empty;
+            Console.WriteLine("This Program Change Cm to Inch");
+            Console.Write("Input Cm");
+            userInput = Console.ReadLine();
+
+            int cmInput = 0;
+            int.TryParse(userInput, out cmInput);
+            
+            Ruler ruler = new Ruler(cmInput);
+            //  {       2023. 03. 08. make user input system. /Beta
             ruler.Run();
         }       //Main(string[] args)
     }       //Class Program
