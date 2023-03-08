@@ -1,14 +1,6 @@
 ﻿namespace ConsoleApp1
-{
-    public class Program
-    {
-
-        static void Main(string[] args)
-        {
-            Ruler ruler = new Ruler(10);
-            ruler.Run();
-        }       //Main(string[] args)
-    }       //Class Program
+{    
+    // 2023/03/08 Ruler Class Position Change
     public class Ruler
     {
         private const float ONE_INCH = 2.54F;
@@ -28,4 +20,14 @@
             Centimeter = (int)(InchValue / ONE_INCH);
         }       //SetInch()
     }       //Class Ruler
+    // 2023/03/08 Ruler Class Position Change
+    public class Program
+    {
+
+        static void Main(string[] args)
+        {
+            Ruler ruler = new Ruler(10);
+            ruler.Run();
+        }       //Main(string[] args)
+    }       //Class Program
 }
